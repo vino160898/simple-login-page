@@ -1,0 +1,20 @@
+print("Hi, Sir I am Your System Assistant Please Enter Your Name and password")
+choice='Y'
+while not choice=='N':
+	print("Enter Your Name")
+	name=input()
+	if name == "vino":
+			print("Enter Your Password 123")
+			pwd=int(input())
+			if pwd == 123:
+				print("Hi, "+ name +" Welcome")
+				print("taking your private messages")
+				print("90xxxxxx78")
+				print("99xxxxxx82")
+				break
+			else:
+				print("If Your Wrong Password, Please check Your Password")
+	else:
+		print("""Your Not System Admin" , So Please contact SYSTEM ADMIN""")
+		print("Thanks....")
+	choice=input("Press 'N' To Stop, Continue to 'Y' :")
