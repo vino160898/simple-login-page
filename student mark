@@ -1,0 +1,14 @@
+print("student marks")
+i=int(input("enter your subjects : "))
+mark=list()
+for marks in range(i):
+	marks=int(input("enter mark : "))
+	mark.append(int(marks))
+print(mark)
+print("your highest😲️ score in :",max(mark))
+print("your average😆️ score in :",min(mark))
+print("your total score",sum(mark),"Good Luck...👍️")
+for i in range(len(mark)):
+	if mark[i]%2==0:
+		print("your even scores:",mark[i])
+print("Thank you...👍️")
